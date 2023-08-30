@@ -1,0 +1,125 @@
+<!DOCTYPE HTML>
+<html>
+    <head> 
+    Demetricks Website
+    </head>
+
+    <body>
+      <div id="all-contents">
+        <nav>
+            <h1>Demetricks Website</h1>
+            <ul id="nav-ul">
+               <li class="nav-li">
+               <a class="nav-a" href="index.html">Home</a>
+             </li>
+             <li class="nav-li">
+               <a class="nav-a" href="portfolio.html">Portfolio</a>
+             </li>
+         </ul>
+     </nav>
+      </div>
+    </body> 
+    <nav>
+        <!-- Nav stuff here...-->
+    </nav>
+    <main>
+        <div class="content">
+            <h1>Portfolio</h1>
+            <ul id="portfolio">
+
+            </ul>
+        </div>
+    </main> 
+    <ul id="portfolio">
+        <li><a href="projects/platformer/">Platformer : A cannon - dodging, collectible - grabbing adventure game for Halleb0t</a></li>
+        <li><a href="projects/bouncing-box/">Bouncing Box : A project that gives you a taste of game development on the web </a></li>
+        <li><a href="projects/circularity/">Circularity : A motion poem using random number generation and velocity applied to circle shapes...</a></li>
+        
+    </ul> 
+    
+    <head> 
+    <title> Demetricks Website</title> 
+    <style type="text/css">
+        body {
+            background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlqaVc-eCtNSrW3RHmqJbiUyp6R6qq4ZgBHJ0Y6Uvsx0RuI0cpAwesB7k9mNoU0ySWfpg&usqp=CAU");
+            -webkit-background-size: cover;
+             -moz-background-size: cover;
+             -o-background-size: cover;
+             background-size: cover;
+            color: rgb(255, 3, 3);
+            padding: 10px;
+            font-family: arial;
+        }
+        header {
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+
+        #all-contents {
+            max-width: 800px;
+            margin: auto;
+        }
+
+        /* navigation menu */
+        nav { 
+            margin: 0 auto; 
+            display: flex;
+            padding: 10px;
+        }
+        h1 {
+            display: flex;
+            align-items: center;
+            color: rgb(214, 89, 89);
+            flex: 1;
+            margin: 0;
+        }
+        #nav-ul {
+            list-style-image: none;
+        }
+        .nav-li {
+            display: inline-block;
+            padding: 0 10px;
+        }
+        .nav-a {
+            text-decoration: none;
+            color: #fff;
+        }
+
+        /* main container area beneath menu */
+        main {
+           
+            display: flex;
+        }
+        .content {
+            flex: 1;
+            padding: 15px;
+        } 
+                 /* portfolio styles */
+                 .content h1 {
+             color: rgb(255, 0, 0);
+         }
+
+         #portfolio {
+             list-style-type: none;
+             padding-left: 0;
+         }
+
+         #portfolio li {
+             padding: 10px;
+             border-radius: 10px;
+             margin-bottom: 10px;
+         }
+
+         #portfolio li:hover {
+            
+         }
+
+         #portfolio a {
+             text-decoration:none;
+             color: #ff0000;
+             font-family:monospace;
+         }
+    </style>
+    </head> 
+</html>
+ 
